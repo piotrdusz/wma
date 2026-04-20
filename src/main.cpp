@@ -1,10 +1,9 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include <opencv2/highgui/highgui.hpp>
 
 using namespace cv;
 
-void ChangeContrast(const Mat &input, int alfa, int beta)
+void ChangeContrast(const Mat &input, double alfa, int beta)
 {
     // Zmiana kontrastu tak, aby intensywność każdego piksela była pomnożona przez alfa i dodane beta
 }
@@ -67,6 +66,8 @@ void GeometricOperations(const Mat& input)
     // Translacja
 
     // Obrót
+
+    // Odbicie symetryczne
 
 }
 
