@@ -6,6 +6,7 @@ using namespace cv;
 void ChangeContrast(const Mat &input, double alfa, int beta)
 {
     // Zmiana kontrastu tak, aby intensywność każdego piksela była pomnożona przez alfa i dodane beta
+
 }
 
 void TwoImageOperations(const Mat &input1, const Mat &input2)
@@ -25,6 +26,7 @@ void ApplyThreshold(const Mat &input, int val)
     // Binaryzacja
 
     // Różne rodzaje
+
 }
 
 void MorphologicalOperations(const Mat &input, int kernel_size)
@@ -36,6 +38,7 @@ void MorphologicalOperations(const Mat &input, int kernel_size)
     // Erozja
 
     // Inne
+
 }
 
 void Filtering(const Mat &input, int kernel_size)
@@ -45,6 +48,7 @@ void Filtering(const Mat &input, int kernel_size)
     // Filtr gaussowski
 
     // Filtr medianowy
+
 }
 
 void SimpleMasking(const Mat &input)
@@ -54,11 +58,13 @@ void SimpleMasking(const Mat &input)
     // Narysowanie białych kształtów
 
     // Zostawienie tylko tych fragmentów obrazu, które na masce są białe
+
 }
 
 void PixelIteration(const Mat &input)
 {
     // Iteracja pętlą przez wszystkie piksele i dokonanie jakiejś operacji
+
 }
 
 void GeometricOperations(const Mat& input)
@@ -74,6 +80,7 @@ void GeometricOperations(const Mat& input)
 void VideoPlayer()
 {
     // Wyświetlenie wideo
+    
 }
 
 int main(int argc, char** argv)
