@@ -10,7 +10,12 @@ Alternatywnie, jeśli ktoś nie ma ochoty na instalowanie osobnego systemu to po
 
 Oczywiście zainstalowanie OpenCV na Windowsie też jest możliwe, ale w razie trudności raczej nie będę umiał pomóc.
 
-Żeby zainstalować OpenCV na linuksie należy postępować zgodnie z [instrukcją](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html). Sugeruję zbudować biblioteką z dodatkowymi modułami, czyli ramkę **Build with opencv_contrib**.
+Żeby zainstalować OpenCV należy wpisać w terminalu polecenie:
+```
+sudo apt install build-essential cmake libopencv-dev
+```
+
+Instaluje to stabilną (nie najnowszą, ale w zupełności wystarczającą do tych zajęć) wersję biblioteki. Jeśli jednak ktoś chce zainstalować najnowszą wersję to należy postępować zgodnie z [instrukcją](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html). Sugeruję zbudować biblioteką z dodatkowymi modułami, czyli ramkę **Build with opencv_contrib**.
 
 Żeby sprawdzić, czy instalacja przebiegła pomyślnie trzeba sklonować to repozytorium, otworzyć terminal (WSLa) i przejść do katalogu go zawierającego, a następnie:
 
