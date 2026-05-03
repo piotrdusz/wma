@@ -6,16 +6,19 @@ Instalacja OpenCV na Windowsie bywa kłopotliwa, z tego względu sugeruję przej
 
 Instalacja Ubuntu: [Install Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/). Można je zainstalować jako jedyny system lub obok istniejącego.
 
-Alternatywnie, jeśli ktoś nie ma ochoty na instalowanie osobnego systemu to polecam zapoznać się z [WSLem](https://learn.microsoft.com/en-us/windows/wsl/) (ang. *Windows Subsystem for Linux*). Jest on znacznie wygodniejszy niż tradycyjne maszyny wirtualne, oraz nie tak kłopotliwy jak dual-boot.
+Alternatywnie, jeśli ktoś nie ma ochoty na instalowanie osobnego systemu to polecam zapoznać się z [WSLem](https://learn.microsoft.com/en-us/windows/wsl/) (ang. *Windows Subsystem for Linux*). Jest on znacznie wygodniejszy niż tradycyjne maszyny wirtualne, oraz nie tak kłopotliwy jak dual-boot. Po zainstalowaniu WSLa warto dokonać aktualizacji wszystkich programów poleceniem:
+```
+sudo apt update && sudo apt upgrade
+```
 
 Oczywiście zainstalowanie OpenCV na Windowsie też jest możliwe, ale w razie trudności raczej nie będę umiał pomóc.
 
 Żeby zainstalować OpenCV należy wpisać w terminalu polecenie:
 ```
-sudo apt install build-essential cmake libopencv-dev
+sudo apt install build-essential cmake ffmpeg libopencv-dev
 ```
 
-Instaluje to stabilną (nie najnowszą, ale w zupełności wystarczającą do tych zajęć) wersję biblioteki. Jeśli jednak ktoś chce zainstalować najnowszą wersję to należy postępować zgodnie z [instrukcją](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html). Sugeruję zbudować biblioteką z dodatkowymi modułami, czyli ramkę **Build with opencv_contrib**.
+Instaluje to stabilną (nie najnowszą, ale w zupełności wystarczającą do tych zajęć) wersję biblioteki. Jeśli jednak ktoś chce zainstalować najnowszą wersję to należy postępować zgodnie z [instrukcją](https://docs.opencv.org/4.x/d7/d9f/tutorial_linux_install.html). Sugeruję zbudować bibliotekę z dodatkowymi modułami, czyli ramkę **Build with opencv_contrib**.
 
 Żeby sprawdzić, czy instalacja przebiegła pomyślnie trzeba sklonować to repozytorium, otworzyć terminal (WSLa) i przejść do katalogu go zawierającego, a następnie:
 
