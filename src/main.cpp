@@ -18,7 +18,7 @@ void testOneImage(const string &imagePath)
     // TODO 2: Utwórz obraz binarny 'bin' zawierający segmentację koloru.
     //         - Przekonwertuj obraz z przestrzeni BGR do HSV (cvtColor()).
     //         - Wybierz zakres koloru niebieskiego (inRange()).
-    //         - Wyświetl wynik po progowaniu (imshow("Blue", bin)).
+    //         - Wyświetl wynik po progowaniu (imshow()).
     Mat bin;
 
     // TODO 3 (opcjonalnie): Zastosuj operacje morfologiczne, aby odszumić obraz binarny.
