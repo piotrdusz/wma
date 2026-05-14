@@ -40,20 +40,17 @@ Celem ćwiczenia jest nauka podstawowych funkcji z OpenCV, takich jak:
 * filtrowanie,
 * operacje geometryczne.
 
-## 3. Wykrywanie znaków nakazu.
+## 3. Wykrywanie znaków nakazu (dwa zajęcia).
 Celem ćwiczenia jest napisanie programu, który będzie wykrywał znaki nakazu, zaznaczał je na obrazie oraz wykonywał prostą klasyfikację.
 
 ## 4. Skaner dokumentów.
 Celem ćwiczenia jest napisanie programu, który będzie wykrywał gdzie znajduje się dokument, "prostował" go, a następnie czytał tekst przy pomocy OCRa.
 
-## 5. TODO
-Jeszcze się zastanawiam.
-
-## 6. Śledzenie obiektu.
+## 5. Śledzenie obiektu.
 Celem ćwiczenia jest napisanie programu, służącego do śledzenia ruchomego obiektu oraz wyznaczenie jego trajektorii ruchu.
 
-## 7. Sieci neuronowe - wersja A
+## 6. Sieci neuronowe - wersja A
 Nauczenie prostego klasyfikatora przy pomocy konwolucyjnej sieci neuronowej.
 
-## 7. Sieci neuronowe - wersja B
+## 6. Sieci neuronowe - wersja B
 Zadanie mające na celu lepsze zrozumienie pomiędzy konwolucyjnymi sieciami neuronowymi, a klasycznymi metodami przetwarzania obrazów.
