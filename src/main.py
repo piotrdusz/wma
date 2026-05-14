@@ -3,6 +3,8 @@ from pathlib import Path
 import cv2 as cv
 import numpy as np
 
+TEMPLATE_DIR = Path(__file__).resolve().parent.parent / "templates"
+
 
 def testOneImage(imagePath: str):
     # TODO 1: Wczytaj obraz do zmiennej 'img' (imread()).
@@ -39,7 +41,7 @@ def testOneImage(imagePath: str):
     templateNames = ["c2.png", "c5.png", "c9.png", "c12.png"]
     templates = []
     for name in templateNames:
-        templates.append(cv.imread("./templates/" + name, cv.IMREAD_GRAYSCALE))
+        templates.append(cv.imread(str(TEMPLATE_DIR / name), cv.IMREAD_GRAYSCALE))
 
     # Dla każdego znalezionego konturu wycinany jest pojedynczy znak oraz zostawiana tylko jego zawartość
     # Tak przygotowany obraz należy porównać z szablonami i znaleźć ten o najlepszym dopasowaniu

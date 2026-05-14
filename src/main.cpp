@@ -43,10 +43,11 @@ void testOneImage(const string &imagePath)
 
 
     // Wczytywanie szablonów
+    const fs::path template_dir = TEMPLATE_DIR;
     const array<string, 4> templateNames = {"c2.png", "c5.png", "c9.png", "c12.png"};
     Mat templates[4];
     for (int i = 0; i < 4; ++i) {
-        templates[i] = imread("./templates/" + templateNames[i], IMREAD_GRAYSCALE);
+        templates[i] = imread((template_dir / templateNames[i]).string(), IMREAD_GRAYSCALE);
     }
 
     // Dla każdego znalezionego konturu wycinany jest pojedynczy znak oraz zostawiana tylko jego zawartość
