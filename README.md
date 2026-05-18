@@ -6,3 +6,10 @@ Celem ćwiczenia jest napisanie programu, który będzie wykrywał gdzie znajduj
 - Wyrównanie dokumentu: 2 punkty
 - Użycie OCRa: 1 punkt
 - Wnioski: 1 punkt
+
+## Instalacja OCR
+Do uruchomienia OCRa z polskimi znakami można doinstalować Tesseracta poleceniem:
+
+```bash
+sudo apt install tesseract-ocr tesseract-ocr-pol
+```

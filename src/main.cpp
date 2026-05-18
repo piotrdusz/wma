@@ -71,6 +71,10 @@ array<Point2f, 4> detectDocumentLines(const Mat& inputImage)
     // Podzielenie wykrytych odcinkow na linie poziome i pionowe.
     auto [horizontalLines, verticalLines] = collectDocumentLines(lineSegments);
 
+    if (horizontalLines.size() < 2 || verticalLines.size() < 2) {
+        return {};
+    }
+
     // Wybranie skrajnych linii jako gornej, prawej, dolnej i lewej krawedzi dokumentu.
     PolarLine topLine = horizontalLines.front();
     PolarLine rightLine = verticalLines.back();
@@ -103,6 +107,10 @@ array<Point2f, 4> detectDocumentPoly(const Mat& inputImage)
 
     vector<vector<Point>> contours;
     // TODO: Znajdz kontury na obrazie binarnym i zapisz je do wektora 'contours' (findContours()).
+
+    if (contours.empty()) {
+        return {};
+    }
 
     // Wybranie konturu o najwiekszym polu jako obrysu dokumentu.
     vector<Point> documentContour = *max_element(contours.begin(), contours.end(),
