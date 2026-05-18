@@ -8,3 +8,4 @@ target_link_libraries(main ${OpenCV_LIBS})
 target_compile_definitions(
     main PRIVATE TEMPLATE_DIR=\"${PROJECT_SOURCE_DIR}/templates\"
 )
+target_compile_features(main PRIVATE cxx_std_17)
