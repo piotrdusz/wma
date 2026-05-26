@@ -46,8 +46,8 @@ Celem ćwiczenia jest napisanie programu, który będzie wykrywał znaki nakazu,
 ## 4. Skaner dokumentów.
 Celem ćwiczenia jest napisanie programu, który będzie wykrywał gdzie znajduje się dokument, "prostował" go, a następnie czytał tekst przy pomocy OCRa.
 
-## 5. Śledzenie obiektu.
-Celem ćwiczenia jest napisanie programu, służącego do śledzenia ruchomego obiektu oraz wyznaczenie jego trajektorii ruchu.
+## 5. Detekcja ruchu.
+Celem ćwiczenia jest napisanie programu, służącego do detekcji ruchomego obiektu.
 
 ## 6. Sieci neuronowe - wersja A
 Nauczenie prostego klasyfikatora przy pomocy konwolucyjnej sieci neuronowej.
