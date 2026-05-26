@@ -1,5 +1,3 @@
 build/*
 !build/.gitkeep
-data/*
-!data/.gitkeep
 .vscode/
