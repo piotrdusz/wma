@@ -76,8 +76,8 @@ void backSub(const string& videoPath)
 void opticalFlow(const string& videoPath)
 {
     VideoCapture capture(videoPath);
-    Mat frame, prevGray;
-    capture.read(frame);
+    Mat frame, prevFrame, prevGray;
+    capture.read(prevFrame);
 
     // Opcjonalnie: zmniejsz klatkę przed pętlą (pyrDown()), aby przyspieszyć obliczenia —
     // przepływ optyczny jest kosztowny obliczeniowo, im mniejszy obraz, tym szybciej.
