@@ -53,4 +53,4 @@ Celem ćwiczenia jest napisanie programu, służącego do detekcji ruchomego obi
 Nauczenie prostego klasyfikatora przy pomocy konwolucyjnej sieci neuronowej.
 
 ## 6. Sieci neuronowe - wersja B
-Zadanie mające na celu lepsze zrozumienie pomiędzy konwolucyjnymi sieciami neuronowymi, a klasycznymi metodami przetwarzania obrazów.
+Zadanie mające na celu lepsze zrozumienie związku pomiędzy konwolucyjnymi sieciami neuronowymi, a klasycznymi metodami przetwarzania obrazów.
